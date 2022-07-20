@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+black = "*"
+better-abc = "*"
+pytest = "*"
+uuid = "*"
+pandas = "*"
+cd = "*"
+gym = "*"
+stable-baselines3 = {extras = ["extra"], version = "*"}
+pyglet = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
